@@ -1,0 +1,26 @@
+PImage wallpaper;
+PImage icon1;
+PFont font;
+void setup(){
+font = createFont("San Francisco",20);
+size(900,900);
+iPhone16Pro();
+
+//app.incon
+rect(700,700,70,70,15);
+
+BedTime();
+StudyEdit();
+
+}
+
+void draw(){
+   if (mouseX >= 395 && mouseX <= 530 && mouseY >= 810 && mouseY <= 815 && key == ENTER || keyCode == ENTER){
+  iPhone16Pro();
+  }
+  if (mouseX >= 295 && mouseX <= 355 && mouseY >= 105 && mouseY <= 165 && key == ENTER || keyCode == ENTER){
+  BedTimeAction();
+  }
+ 
+
+}
